@@ -17,8 +17,9 @@ player addWeapon "ACE_Vector";
 
 comment "Add containers";
 player forceAddUniform "Scorpion_Camo_BDU";
-for "_i" from 1 to 3 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
+for "_i" from 1 to 3 do {player addItemToUniform "ACE_elasticBandage";};
+for "_i" from 1 to 1 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "ACE_CableTie";
 player addItemToUniform "ACE_EarPlugs";
 player addItemToUniform "ACE_Flashlight_MX991";
@@ -92,5 +93,5 @@ switch (true) do
 	};
 };
 
-[[player],"ace_medical_medicClass", 0, true] call ace_common_fnc_assignObjectsInList;
+[[player],"ace_medical_medicClass", 1, true] call ace_common_fnc_assignObjectsInList;
 [[player],"ACE_IsEngineer", 0, true] call ace_common_fnc_assignObjectsInList;

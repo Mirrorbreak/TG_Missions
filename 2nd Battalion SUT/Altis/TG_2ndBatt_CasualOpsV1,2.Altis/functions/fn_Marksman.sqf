@@ -10,15 +10,15 @@ removeGoggles player;
 
 comment "Add weapons";
 player addWeapon "rhs_weap_sr25";
-player addPrimaryWeaponItem "rhsusf_acc_SR25S";
-player addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
-player addPrimaryWeaponItem "rhsusf_acc_ACOG_RMR";
+player addWeapon "rhs_weap_m14ebrri";
+player addPrimaryWeaponItem "optic_MRCO";
 player addPrimaryWeaponItem "rhsusf_acc_harris_bipod";
 
 comment "Add containers";
 player forceAddUniform "Scorpion_Camo_Cyre";
-for "_i" from 1 to 3 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
+for "_i" from 1 to 3 do {player addItemToUniform "ACE_elasticBandage";};
+for "_i" from 1 to 1 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "ACE_CableTie";
 player addItemToUniform "ACE_EarPlugs";
 player addItemToUniform "ACE_Flashlight_MX991";
@@ -32,6 +32,7 @@ player addVest "Scorpion_Vest_1";
 player addItemToVest "ACE_CableTie";
 player addItemToVest "ACE_microDAGR";
 player addItemToVest "HandGrenade";
+player addItemToVest "ACE_EntrenchingTool";
 player addItemToVest "SmokeShell";
 player addItemToVest "SmokeShellRed";
 player addItemToVest "SmokeShellBlue";

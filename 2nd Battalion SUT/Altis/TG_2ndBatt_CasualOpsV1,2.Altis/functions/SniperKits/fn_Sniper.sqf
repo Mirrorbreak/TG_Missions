@@ -17,8 +17,8 @@ player addPrimaryWeaponItem "rhsusf_acc_grip3";
 
 comment "Add containers";
 player forceAddUniform "Scorpion_Camo_Cyre";
-for "_i" from 1 to 3 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
+for "_i" from 1 to 5 do {player addItemToUniform "ACE_elasticBandage";};
 player addItemToUniform "ACE_EarPlugs";
 player addItemToUniform "ACE_Flashlight_MX991";
 player addItemToUniform "ACE_MapTools";
@@ -42,13 +42,18 @@ player addItemToBackpack "rhsusf_acc_M2010S_sa";
 player addItemToBackpack "rhsusf_acc_harris_bipod";
 player addItemToBackpack "rhsusf_acc_premier";
 player addItemToBackpack "rhsusf_acc_premier_anpvs27";
-player addItemToBackpack "ACE_bloodIV";
-player addItemToBackpack "ACE_bloodIV_500";
-for "_i" from 1 to 5 do {player addItemToBackpack "ACE_epinephrine";};
-for "_i" from 1 to 10 do {player addItemToBackpack "ACE_morphine";};
-for "_i" from 1 to 15 do {player addItemToBackpack "ACE_fieldDressing";};
+for "_i" from 1 to 2 do {player addItemToBackpack "ACE_bloodIV";};
+for "_i" from 1 to 4 do {player addItemToBackpack "ACE_salineIV_500";};
+player addItemToBackpack "ACE_personalAidKit";
+for "_i" from 1 to 20 do {player addItemToBackpack "ACE_elasticBandage";};
+for "_i" from 1 to 5 do {player addItemToBackpack "ACE_tourniquet";};
+player addItemToBackpack "ACE_surgicalKit";
+for "_i" from 1 to 15 do {player addItemToBackpack "ACE_morphine";};
+for "_i" from 1 to 10 do {player addItemToBackpack "ACE_epinephrine";};
+for "_i" from 1 to 2 do {player addItemToBackpack "ACE_bloodIV_500";}
 player addItemToBackpack "rhs_weap_XM2010_sa";
 for "_i" from 1 to 4 do {player addItemToBackpack "rhsusf_5Rnd_300winmag_xm2010";};
+
 player addHeadgear "Scorpion_Helmet1";
 
 comment "Add items";

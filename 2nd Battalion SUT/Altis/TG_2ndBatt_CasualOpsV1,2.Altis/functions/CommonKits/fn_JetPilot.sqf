@@ -14,6 +14,7 @@ for "_i" from 1 to 3 do {player addItemToUniform "rhsusf_mag_17Rnd_9x19_FMJ";};
 for "_i" from 1 to 2 do {player addItemToUniform "rhs_mag_an_m8hc";};
 player addVest "Scorpion_Vest_2";
 for "_i" from 1 to 2 do {player addItemToVest "ACE_fieldDressing";};
+for "_i" from 1 to 1 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToVest "ACE_CableTie";
 player addItemToVest "ACE_EarPlugs";
 player addItemToVest "ACE_Flashlight_XL50";

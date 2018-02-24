@@ -12,6 +12,7 @@ comment "Add containers";
 player forceAddUniform "Scorpion_Camo_Cyre";
 for "_i" from 1 to 3 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
+for "_i" from 1 to 1 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "ACE_CableTie";
 player addItemToUniform "ACE_EarPlugs";
 player addItemToUniform "ACE_Flashlight_MX991";

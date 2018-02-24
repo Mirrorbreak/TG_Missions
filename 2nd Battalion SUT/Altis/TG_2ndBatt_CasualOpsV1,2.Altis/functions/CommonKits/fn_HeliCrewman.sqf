@@ -16,6 +16,7 @@ comment "Add containers";
 player forceAddUniform "U_C_WorkerCoveralls";
 player addItemToUniform "H_Cap_red";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 1 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "ACE_Chemlight_Shield";
 player addItemToUniform "ACE_EarPlugs";
 player addItemToUniform "ACE_IR_Strobe_Item";

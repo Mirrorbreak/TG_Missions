@@ -11,7 +11,7 @@ removeGoggles player;
 comment "Add weapons";
 player addWeapon "rhsusf_weap_MP7A2_grip3";
 player addPrimaryWeaponItem "rhsusf_acc_rotex_mp7";
-player addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
+player addPrimaryWeaponItem "rhsusf_acc_anpeq16a";
 player addPrimaryWeaponItem "rhsusf_acc_T1_high";
 player addPrimaryWeaponItem "rhs_acc_grip_ffg2";
 player addWeapon "rhsusf_weap_glock17g4";
@@ -38,10 +38,15 @@ player addBackpack "B_ViperHarness_blk_F";
 player addItemToBackpack "ACE_microDAGR";
 player addItemToBackpack "ACE_Clacker";
 for "_i" from 1 to 2 do {player addItemToBackpack "ACE_bloodIV";};
-for "_i" from 1 to 4 do {player addItemToBackpack "ACE_bloodIV_500";};
-for "_i" from 1 to 10 do {player addItemToBackpack "ACE_morphine";};
+for "_i" from 1 to 4 do {player addItemToBackpack "ACE_salineIV_500";};
+player addItemToBackpack "ACE_personalAidKit";
+for "_i" from 1 to 20 do {player addItemToBackpack "ACE_elasticBandage";};
+for "_i" from 1 to 7 do {player addItemToBackpack "ACE_tourniquet";};
+player addItemToBackpack "ACE_surgicalKit";
+for "_i" from 1 to 15 do {player addItemToBackpack "ACE_morphine";};
 for "_i" from 1 to 10 do {player addItemToBackpack "ACE_epinephrine";};
-for "_i" from 1 to 20 do {player addItemToBackpack "ACE_fieldDressing";};
+for "_i" from 1 to 2 do {player addItemToBackpack "ACE_bloodIV_500";}
+
 player addItemToBackpack "arifle_SDAR_F";
 for "_i" from 1 to 2 do {player addItemToBackpack "20Rnd_556x45_UW_mag";};
 player addItemToBackpack "DemoCharge_Remote_Mag";
@@ -51,6 +56,7 @@ player addItemToBackpack "ACE_Chemlight_IR";
 player addItemToBackpack "Chemlight_red";
 player addItemToBackpack "Chemlight_green";
 player addItemToBackpack "ACE_HandFlare_Green";
+
 player addGoggles "G_B_Diving";
 
 comment "Add items";

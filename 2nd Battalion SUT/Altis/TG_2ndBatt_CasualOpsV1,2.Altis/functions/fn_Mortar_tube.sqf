@@ -15,8 +15,9 @@ player addPrimaryWeaponItem "rhsusf_acc_eotech_552";
 
 comment "Add containers";
 player forceAddUniform "Scorpion_Camo_Cyre";
-for "_i" from 1 to 3 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
+for "_i" from 1 to 3 do {player addItemToUniform "ACE_elasticBandage";};
+for "_i" from 1 to 1 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "ACE_CableTie";
 player addItemToUniform "ACE_EarPlugs";
 player addItemToUniform "ACE_Flashlight_MX991";
@@ -26,6 +27,7 @@ player addItemToUniform "B_IR_Grenade";
 player addVest "Scorpion_Vest_1";
 player addItemToVest "ACE_microDAGR";
 player addItemToVest "HandGrenade";
+player addItemToVest "ACE_EntrenchingTool";
 player addItemToVest "SmokeShell";
 for "_i" from 1 to 4 do {player addItemToVest "rhs_mag_30Rnd_556x45_Mk318_Stanag";};
 player addBackpack "B_Mortar_01_weapon_F";

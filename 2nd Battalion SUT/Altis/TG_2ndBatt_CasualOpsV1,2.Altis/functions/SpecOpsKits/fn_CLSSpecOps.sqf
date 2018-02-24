@@ -1,3 +1,5 @@
+comment "Exported from Arsenal by Dirty";
+
 comment "Remove existing items";
 removeAllWeapons player;
 removeAllItems player;
@@ -14,7 +16,6 @@ player addPrimaryWeaponItem "rhsusf_acc_rotex5_grey";
 player addPrimaryWeaponItem "rhsusf_acc_anpeq15_bk";
 player addPrimaryWeaponItem "rhsusf_acc_eotech_xps3";
 player addWeapon "rhsusf_weap_glock17g4";
-player addHandgunItem "rhsusf_acc_omega9k";
 player addHandgunItem "acc_flashlight_pistol";
 
 comment "Add containers";
@@ -23,7 +24,8 @@ player addItemToUniform "ACE_EarPlugs";
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_CableTie";
 player addItemToUniform "ACE_Flashlight_MX991";
-for "_i" from 1 to 3 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 5 do {player addItemToUniform "ACE_elasticBandage";};
+for "_i" from 1 to 1 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "Chemlight_green";
 player addItemToUniform "ACE_Chemlight_IR";
@@ -37,12 +39,16 @@ player addItemToVest "SmokeShellGreen";
 player addItemToVest "SmokeShellRed";
 for "_i" from 1 to 5 do {player addItemToVest "rhs_mag_30Rnd_556x45_Mk318_Stanag";};
 player addBackpack "B_ViperLightHarness_blk_F";
+for "_i" from 1 to 2 do {player addItemToBackpack "ACE_bloodIV";};
+for "_i" from 1 to 4 do {player addItemToBackpack "ACE_salineIV_500";};
+player addItemToBackpack "ACE_personalAidKit";
+for "_i" from 1 to 20 do {player addItemToBackpack "ACE_elasticBandage";};
+for "_i" from 1 to 7 do {player addItemToBackpack "ACE_tourniquet";};
+player addItemToBackpack "ACE_surgicalKit";
 for "_i" from 1 to 15 do {player addItemToBackpack "ACE_morphine";};
 for "_i" from 1 to 10 do {player addItemToBackpack "ACE_epinephrine";};
-for "_i" from 1 to 20 do {player addItemToBackpack "ACE_fieldDressing";};
-for "_i" from 1 to 4 do {player addItemToBackpack "ACE_bloodIV_500";};
+for "_i" from 1 to 2 do {player addItemToBackpack "ACE_bloodIV_500";}
 player addItemToBackpack "ACE_bodyBag";
-for "_i" from 1 to 2 do {player addItemToBackpack "ACE_bloodIV";};
 player addHeadgear "rhsusf_opscore_paint_pelt_nsw";
 player addGoggles "rhsusf_shemagh2_tan";
 
@@ -53,7 +59,6 @@ player linkItem "ItemWatch";
 player linkItem "tf_anprc152_48";
 player linkItem "ItemGPS";
 player linkItem "rhsusf_ANPVS_15";
-
 
 
 player setSpeaker "ACE_NoVoice";

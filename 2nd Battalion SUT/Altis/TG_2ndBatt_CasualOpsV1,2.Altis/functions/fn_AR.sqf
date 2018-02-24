@@ -14,8 +14,9 @@ player addWeapon "rhsusf_weap_m9";
 
 comment "Add containers";
 player forceAddUniform "Scorpion_Camo_Cyre";
-for "_i" from 1 to 3 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
+for "_i" from 1 to 3 do {player addItemToUniform "ACE_elasticBandage";};
+for "_i" from 1 to 1 do {player addItemToUniform "ACE_tourniquet";};
 for "_i" from 1 to 3 do {player addItemToUniform "ACE_CableTie";};
 player addItemToUniform "ACE_EarPlugs";
 player addItemToUniform "ACE_IR_Strobe_Item";
@@ -24,6 +25,7 @@ player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_microDAGR";
 player addVest "Scorpion_Vest_3";
 player addItemToVest "HandGrenade";
+player addItemToVest "ACE_EntrenchingTool";
 player addItemToVest "SmokeShell";
 player addItemToVest "SmokeShellRed";
 for "_i" from 1 to 3 do {player addItemToVest "rhsusf_mag_15Rnd_9x19_JHP";};

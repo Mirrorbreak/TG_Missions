@@ -11,15 +11,16 @@ removeGoggles player;
 comment "Add weapons";
 player addWeapon "rhsusf_weap_MP7A2_desert_grip3";
 player addPrimaryWeaponItem "rhsusf_acc_rotex_mp7_desert";
-player addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
+player addPrimaryWeaponItem "rhsusf_acc_anpeq16a";
 player addPrimaryWeaponItem "rhsusf_acc_T1_high";
 player addPrimaryWeaponItem "rhs_acc_grip_ffg2";
 player addWeapon "rhs_weap_M320";
 
 comment "Add containers";
 player forceAddUniform "Tiger_Camo_Cyre_GS";
-for "_i" from 1 to 3 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
+for "_i" from 1 to 3 do {player addItemToUniform "ACE_elasticBandage";};
+for "_i" from 1 to 1 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "ACE_CableTie";
 player addItemToUniform "ACE_EarPlugs";
 player addItemToUniform "ACE_IR_Strobe_Item";
